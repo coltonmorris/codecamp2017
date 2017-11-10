@@ -3,7 +3,7 @@ This portion of our code is a node.js webserver that is connected to twitch's IR
 
 ### To Run
 ``` bash
-npm run start
+npm start
 ```
 
 ### TODO
