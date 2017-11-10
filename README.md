@@ -12,4 +12,4 @@
 * Google Firebase account setup
 * Same version of Unity
 * Twitch chat bot webserver
-* Unity integration with Firebase Cool
+* Unity integration with Firebase
