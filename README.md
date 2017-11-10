@@ -2,14 +2,11 @@
 
 ### TODO List
 
-* VR DEMO FIRST
-* Decide on project after demo
-* test streaming delay
-
-
-* Twitch account setup for streaming
 * OBS setup and streaming with shortest delay
-* Google Firebase account setup
-* Same version of Unity
-* Twitch chat bot webserver
-* Unity integration with Firebase
+* Have Unity PULL from firebase
+* 360 degree audio?
+* Update twitch command to no longer generate a random X and Z, but to let the user input the X and Z
+* Start menu
+* Restart Menu
+* Monster Run towards Camera
+* Monsters touching camera makes you lose
