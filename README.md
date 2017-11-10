@@ -13,3 +13,5 @@
 * Same version of Unity
 * Twitch chat bot webserver
 * Unity integration with Firebase
+
+https://www.youtube.com/watch?v=mFFta9OszzA - Grab and throw tutorial
