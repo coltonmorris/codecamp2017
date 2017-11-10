@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "config": "^1.28.1",
+    "firebase": "^4.6.2",
+    "lodash": "^4.17.4",
     "tmi.js": "0.0.29"
   }
 }
