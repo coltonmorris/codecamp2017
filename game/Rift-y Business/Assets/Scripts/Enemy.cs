@@ -7,9 +7,10 @@ public class Enemy : MonoBehaviour {
 	public float speed = 10f;
 
 	private Transform target;
+	private int wavepointIndex = 0;
 
 	void Start () {
-		target = EnemyTarget.enemyTarget[0];
+		target = Players.points[0];
 	}
 
 	void Update () {
@@ -18,7 +19,9 @@ public class Enemy : MonoBehaviour {
 
 		// if enemy gets to player
 		if (Vector3.Distance (transform.position, target.position) <= 0.4f) {
-			// die!
+			// TODO: this is where the player gets hit by enemy
+
+
 			Destroy(gameObject);
 			return;
 		}
