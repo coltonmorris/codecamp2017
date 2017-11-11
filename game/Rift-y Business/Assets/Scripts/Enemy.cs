@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour {
 
@@ -10,7 +11,7 @@ public class Enemy : MonoBehaviour {
 	private int wavepointIndex = 0;
 
 	void Start () {
-		target = Players.points[0];
+		target = Players.points[wavepointIndex];
 	}
 
 	void Update () {
@@ -21,6 +22,7 @@ public class Enemy : MonoBehaviour {
 		if (Vector3.Distance (transform.position, target.position) <= 0.4f) {
 			// TODO: this is where the player gets hit by enemy
 
+			PlayerStats.DeathCount++;
 
 			Destroy(gameObject);
 			return;
