@@ -265,6 +265,12 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>Library\UnityAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="simple-firebase-csharp">
+      <HintPath>Assets\SimpleFirebaseUnity\Plugins\simple-firebase-csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="simple-firebase-unity-editor">
+      <HintPath>Assets\SimpleFirebaseUnity\Plugins\Editor\simple-firebase-unity-editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Rift-y Business.csproj">
@@ -298,6 +304,8 @@
     <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\SimpleFirebaseUnity\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\SimpleFirebaseUnity\Plugins\simple-firebase-csharp.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

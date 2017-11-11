@@ -36,6 +36,10 @@ public class EnemySpawner : MonoBehaviour {
 	void SpawnEnemy () {
 
 
+
 		Instantiate (enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+//////
+		//Instantiate (enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+///// 956e994788777cd6ca43ec448f4b95316068df33
 	}
 }
