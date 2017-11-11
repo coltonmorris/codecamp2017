@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour {
 
-	public static int DeathCount;
-	public int startDeathCount = 0;
+	public static int PlayerDeathCount;
+	public static int EnemyDeathCount;
+	public int startPlayerDeathCount = 0;
+	public int startEnemyDeathCount = 0;
 	
 	// Update is called once per frame
 	void Start () {
-		DeathCount = startDeathCount;
+		PlayerDeathCount = startPlayerDeathCount;
+		EnemyDeathCount = startEnemyDeathCount;
 	}
 }
