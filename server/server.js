@@ -28,10 +28,12 @@ client.connect()
 
  
 client.on('chat',function(channel,user,message,self) {
-  if (message in handlers) {
+  let command = message.split(' ')
+  console.log('command: ', command)
+  if (command[0] in handlers) {
     // the output is an array because twitch does not allow newlines in the same message
     // map through that array and output each line
-    handlers[message].run(user).map((line) => {
+    handlers[command[0]].run(user, command).map((line) => {
       client.action(initialChannel, line)
     })
   }
