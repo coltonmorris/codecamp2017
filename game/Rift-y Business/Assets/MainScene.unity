@@ -490,6 +490,7 @@ GameObject:
   - component: {fileID: 1478930454}
   - component: {fileID: 1478930453}
   - component: {fileID: 1478930455}
+  - component: {fileID: 1478930456}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -538,6 +539,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPlayerDeathCount: 0
   startEnemyDeathCount: 0
+--- !u!114 &1478930456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478930452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebee9ebff3369fe488c1ff1e09695693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 4451861298816444, guid: ca65c9024d67a3f43a6c4e87ab88ee56,
+    type: 2}
 --- !u!1 &1895469296
 GameObject:
   m_ObjectHideFlags: 0

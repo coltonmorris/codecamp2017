@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\OVR\Scripts\Editor\OVRManagerEditor.cs" />
+     <None Include="Assets\SimpleFirebaseUnity\Plugins\simple-firebase-csharp.xml" />
+     <None Include="Assets\SimpleFirebaseUnity\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -144,6 +146,12 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>C:/Users/hasht/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="simple-firebase-unity-editor">
+ <HintPath>C:/Users/hasht/Documents/GitHub/codecamp2017/game/Rift-y Business/Assets/SimpleFirebaseUnity/Plugins/Editor/simple-firebase-unity-editor.dll</HintPath>
+ </Reference>
+ <Reference Include="simple-firebase-csharp">
+ <HintPath>C:/Users/hasht/Documents/GitHub/codecamp2017/game/Rift-y Business/Assets/SimpleFirebaseUnity/Plugins/simple-firebase-csharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
